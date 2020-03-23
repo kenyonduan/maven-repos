@@ -1,0 +1,6 @@
+[submodule "test"]
+	path = test
+	url = https://github.com/appleboy/test
+[submodule "mp"]
+	path = mp
+	url = git@github.com:wppurking/mp.git
