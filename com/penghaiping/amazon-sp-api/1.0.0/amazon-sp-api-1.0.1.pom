@@ -6,7 +6,7 @@
 
     <groupId>com.penghaiping</groupId>
     <artifactId>amazon-sp-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>amazon sp-api</name>
     <description>Amazon SP-API</description>
 
@@ -130,23 +130,4 @@
             <version>3.0.0</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>2.1.2</version>
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>jar-no-fork</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
