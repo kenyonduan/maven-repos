@@ -6,7 +6,7 @@
 
     <groupId>com.penghaiping</groupId>
     <artifactId>amazon-sp-api</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>amazon sp-api</name>
     <description>Amazon SP-API</description>
 
