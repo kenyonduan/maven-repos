@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amazon</groupId>
   <artifactId>spapi</artifactId>
-  <version>1.3.3</version>
+  <version>1.3.4</version>
   <dependencies>
     <dependency>
       <groupId>com.google.code.gson</groupId>
