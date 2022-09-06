@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.amazon",
+    "module": "spapi",
+    "version": "1.3.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spapi-1.3.8.jar",
+          "url": "spapi-1.3.8.jar",
+          "size": 2507016,
+          "sha512": "fcb6ea5fcf0fa534c6c2eb8cc571a84ccb463e91e4398bdf257ad9acca0981c82cfe8bae924f44b31cda64a58701e617113740d52a09e52d8966591ff7bc4677",
+          "sha256": "2e5ae0e4051548275cb7f57e7db4af301e736e17efb45fd3070ae9b0c3666739",
+          "sha1": "d4be4c3a06f406f0aa2fec760d5fc0e97eb50806",
+          "md5": "34f1b1ddf73f5f3be67afaf8a1fccf43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-signer",
+          "version": {
+            "requires": "1.11.610"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-sts",
+          "version": {
+            "requires": "1.11.236"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp",
+          "module": "okhttp",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "io.gsonfire",
+          "module": "gson-fire",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spapi-1.3.8.jar",
+          "url": "spapi-1.3.8.jar",
+          "size": 2507016,
+          "sha512": "fcb6ea5fcf0fa534c6c2eb8cc571a84ccb463e91e4398bdf257ad9acca0981c82cfe8bae924f44b31cda64a58701e617113740d52a09e52d8966591ff7bc4677",
+          "sha256": "2e5ae0e4051548275cb7f57e7db4af301e736e17efb45fd3070ae9b0c3666739",
+          "sha1": "d4be4c3a06f406f0aa2fec760d5fc0e97eb50806",
+          "md5": "34f1b1ddf73f5f3be67afaf8a1fccf43"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spapi-1.3.8-sources.jar",
+          "url": "spapi-1.3.8-sources.jar",
+          "size": 1404939,
+          "sha512": "b681667248f090b8702565bb22a15ac206b3f3c58478ec87e571aac5abd80f32af4ac2e9ba7f65c925f03faf3fee050c1ac3e6381425c11ada4c67349eea9af0",
+          "sha256": "5758e89ff1768e34f29674c4c7fbca9c1986274a8d7db68e43390fb50066b663",
+          "sha1": "e81ca605f27652b3ecb1c2a80b4e85c4643b9365",
+          "md5": "2ebf63511ccf40b84b9a8c07491018b4"
+        }
+      ]
+    }
+  ]
+}

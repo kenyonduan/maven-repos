@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.amazon",
+    "module": "spapi",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spapi-1.3.0.jar",
+          "url": "spapi-1.3.0.jar",
+          "size": 2257927,
+          "sha512": "791aaf9ac7068014cdace6297217e0e93731fd6716a68046b57f3e0add0ea144e60177bc715b34f605064aa852ceafb5cab26708b5cee1fa86fabf193088ff40",
+          "sha256": "8d51db4057f9e8f8d59180fbc923ba7ce4aabb1fb00a70151632a0b8231c596a",
+          "sha1": "94775fecd6a65938ced648bbc74ce0206c0ec6cf",
+          "md5": "00b2f920f2b29476d7b706171e4faea7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-signer",
+          "version": {
+            "requires": "1.11.610"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-sts",
+          "version": {
+            "requires": "1.11.236"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp",
+          "module": "okhttp",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "io.gsonfire",
+          "module": "gson-fire",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spapi-1.3.0.jar",
+          "url": "spapi-1.3.0.jar",
+          "size": 2257927,
+          "sha512": "791aaf9ac7068014cdace6297217e0e93731fd6716a68046b57f3e0add0ea144e60177bc715b34f605064aa852ceafb5cab26708b5cee1fa86fabf193088ff40",
+          "sha256": "8d51db4057f9e8f8d59180fbc923ba7ce4aabb1fb00a70151632a0b8231c596a",
+          "sha1": "94775fecd6a65938ced648bbc74ce0206c0ec6cf",
+          "md5": "00b2f920f2b29476d7b706171e4faea7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spapi-1.3.0-sources.jar",
+          "url": "spapi-1.3.0-sources.jar",
+          "size": 1330674,
+          "sha512": "3b02a26459f7aa861aa5ba8c6ed55045fcf3b169d908f5239ddd97000d9110ba1abc613fe23722b2a8ce6b9c2814039c0f17951290288a3c0683b484eb04bd78",
+          "sha256": "bd8c5215f5e38fbfd486b22847d06e2e84bfafa79d0776fb880194862a87537a",
+          "sha1": "9c4b7f87764964b651cbe9ca37d37cb5ed20c289",
+          "md5": "1948b9a45dd2cd08805938cb0425246f"
+        }
+      ]
+    }
+  ]
+}
