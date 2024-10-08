@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 18:24:36 CST 2024
+spapi-2.1.6.pom>=
+spapi-2.1.6.jar>=
+spapi-2.1.6-sources.jar>=
+spapi-2.1.6-tests.jar>=
