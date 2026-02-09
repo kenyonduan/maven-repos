@@ -5,7 +5,7 @@
     <artifactId>tbmq</artifactId>
     <packaging>jar</packaging>
     <name>tbmq</name>
-    <version>2.2.2</version>
+    <version>2.2.4</version>
     <url>https://github.com/thingsboard/tbmq</url>
     <description>TBMQ Java Client</description>
     <scm>
