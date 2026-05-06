@@ -12,6 +12,6 @@
   <packaging>jar</packaging>
 
   <name>kuaimai-core</name>
-  <description>快麦核心SDK</description>
+  <description>快麦核心SDK Jar包</description>
 
 </project>
