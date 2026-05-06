@@ -13,6 +13,6 @@
 
   <!-- 可选：便于识别 -->
   <name>kuaimai-core</name>
-  <description>快麦核心 SDK（fat jar）</description>
+  <description>快麦核心SDK</description>
 
 </project>
